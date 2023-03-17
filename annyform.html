@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+  </head>
+    <style>
+      .businesName {
+        color: blue;
+        font-weight: bold;
+      }
+      p {
+        color: blue;
+      }
+
+      img {
+        width: 100px;
+        border-radius: 50px;
+      }
+
+      .subheading {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <h2 class="businesName">AnnyEventDecor</h2>
+    <img src="images/ProfessionalProfilepic.jpeg" alt="profile picture" />
+    <p class="subheading">Form Page</p>
+    
+    <h2>AnnyEventDecor offers all inclusive packages big or small for any type of event.</h2>
+
+    <h4>Book your apointment below</h4>
+    
+    <form action="https://formsubmit.co/annybusevents@gmail.com" method="POST">
+      <input type="text" name="name" placeholder="Name" required /><br>
+      <input type="email" name="email" placeholder="Email Address" required /><br>
+      <input type="phone" name="phone" placeholder="Phone" required /><br>
+      <input type="datetime-local" name="date" placeholder="Date" required /><br>
+      <input type="text" name="budget" placeholder="Budget" required /><br>
+      <input type="text" name="event type" placeholder="Event type" required /><br>
+      <input type="text" name="guest count" placeholder="Guest count" required /><br>
+      <input type="text" name="message" placeholder="Event discription or additional information" required /><br>
+      <button type="submit">Send</button>
+    </form>
+
+  </body>
+</html>
